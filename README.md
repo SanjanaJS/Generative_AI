@@ -1,6 +1,34 @@
 # Generative_AI
-## Setup
+Resume Builder (Generative AI Project)
+This project is a Generative AI–powered Resume Builder developed using Python, Flask, and OpenAI API.
+It allows users to input their personal and professional details and generates a clean, ATS-friendly resume automatically using AI.
 
-Set your API key as an environment variable:
+Features
+- Generates professional resumes using Generative AI
+- ATS-friendly text-based resume output
+- Simple and user-friendly Flask web interface
+- Custom sections:
+  >Career Objective
+  >Education
+  >Work Experience
+  >Skills
 
-OPENAI_API_KEY=your_api_key_here
+Tech Stack
+- Python
+- Flask
+- OpenAI API
+- HTML (Jinja Templates)
+
+Project Structure
+resume-builder/
+│
+├── app.py
+├── templates/
+│   └── index.html
+├── README.md
+
+How It Works
+- User enters resume details through a web form.
+- The backend sends structured prompts to the OpenAI model.
+- AI generates a professional resume in text format.
+- The generated resume is displayed on the webpage.
