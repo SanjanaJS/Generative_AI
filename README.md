@@ -32,3 +32,9 @@ How It Works
 - The backend sends structured prompts to the OpenAI model.
 - AI generates a professional resume in text format.
 - The generated resume is displayed on the webpage.
+
+Learning Outcomes
+- Hands-on experience with Flask web development
+- Practical use of OpenAI API
+- Prompt engineering for structured text generation
+- Building end-to-end AI-powered applications
